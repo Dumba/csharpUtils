@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    public class cyphers
+    public class Cyphers
     {
-        public cyphers()
+        public Cyphers()
         {
             string a1 = simpleReverse("Vraťte se ke mně a já se vrátím k vám, praví Hospodin zástupů.");
             string a2 = alphabetReverse("Víno a pivo, tak zní mé proroctví");
@@ -135,5 +135,26 @@ namespace ConsoleApplication1
 
             return str;
         }
+
+        //private char toChar(int item)
+        //{
+        //    int alphabethLength = 26;
+
+        //    if (item < 65)
+        //    {
+        //        do
+        //        {
+        //            item += alphabethLength;
+        //        }
+        //        while (item < 65);
+        //        return (char)item;
+        //    }
+
+        //    if (item <= 90)
+        //        return (char)item;
+
+        //    if (item < 97)
+        //        return
+        //}
     }
 }
